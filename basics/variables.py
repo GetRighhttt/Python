@@ -1,13 +1,16 @@
-# Python is dynamically typed, so you don't have to explicitly
-# state your variables, because its datatype is checked at run time.
-# Variables are placeholders for data types, however in python,
-# they aren't specified
 
 name = "Stefan"  # String
 age = 27  # Integer
 gender = "Male"
 pi = 3.14  # Float or Double
 isAdult = True  # Boolean
+
+"""
+# Python is dynamically typed, so you don't have to explicitly
+# state your variables, because its datatype is checked at run time.
+# Variables are placeholders for data types, however in python,
+# they aren't specified
+"""
 
 lastname, firstname = "Bayne", "Cool"  # We can also assign multiple variables with one line
 # in Python
@@ -25,7 +28,9 @@ def method() -> str:
     return "This is how we define a method in python."
 
 
+"""
 # Output: Stefan 20 Male 3.14 Bayne Cool
 #  <class 'float'>
 # GetRight
+"""
 
